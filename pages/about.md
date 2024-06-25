@@ -10,7 +10,15 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+<!-- {% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %} -->
+
+<nav class="col-lg-4 col-md-6 col-sm-12 toc">
+## Table of Contents
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+</nav>
 
 ## About CollectionBuilder CSV
 
