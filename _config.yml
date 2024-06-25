@@ -50,11 +50,10 @@ metadata: demo-compoundobjects-metadata
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
-
+organization-name: "Bryn Mawr College"
+organization-link: https://brynmawr.edu/
+organization-logo-banner: https://www.brynmawr.edu/sites/default/files/wrapper/2021-06/Logo.svg
+organization-logo-nav: https://www.brynmawr.edu/sites/default/files/wrapper/2021-06/Logo.svg
 ##########
 # ROBOTS EXCLUDE
 #

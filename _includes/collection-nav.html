@@ -9,9 +9,13 @@
                 <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
             </a>
         </span>{% endif %}
+
+        <span>
+            <a href="/">{{ site.title }}/a>
+        </span>
         
         <div class="collapse navbar-collapse" id="page-nav">
-            <ul class="navbar-nav me-auto">
+            <ul class="navbar-nav me-auto custom-nav">
                 {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
                 {% for nav in navItems %}
                 {% if nav.stub %}
@@ -31,10 +35,7 @@
                 </li>
                 {% endif %}
                 {%- endfor -%}
-            </ul>
-            
-            {% include nav-search-lunr.html %}
-            
+            </ul>          
         </div>
     </div>
 </nav>
