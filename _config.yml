@@ -72,3 +72,8 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
+
+kramdown:
+  parse_block_html: true
+  auto_ids: true
+  toc_levels: 1..6
